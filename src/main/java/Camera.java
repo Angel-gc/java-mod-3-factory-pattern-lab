@@ -30,4 +30,12 @@ public abstract class Camera {
     }
 
     public abstract String getName() ;
+
+    public ShutterOperations getShutterOps() {
+        return shutterOps;
+    }
+
+    public MirrorOperations getMirrorOps() {
+        return mirrorOps;
+    }
 }

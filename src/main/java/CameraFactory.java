@@ -1,7 +1,8 @@
 public class CameraFactory {
     public enum CameraManufacturer {
         NIKON_FILM("Nikon Film"),
-        CANON_FILM("Canon Film");
+        CANON_FILM("Canon Film"),
+        NIKON_DIGITAL("Nikon Digital");
 
         String name;
 
